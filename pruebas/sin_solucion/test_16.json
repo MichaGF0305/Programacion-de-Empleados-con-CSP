@@ -1,0 +1,19 @@
+{
+  "habilidades": ["FrontDesk", "Admin"],
+  "departamentos": [
+    {"nombre": "Recepción", "habilidades_requeridas": ["FrontDesk"]},
+    {"nombre": "Oficina", "habilidades_requeridas": ["Admin"]}
+  ],
+  "empleados": [
+    {"nombre": "E-A", "habilidades": ["FrontDesk", "Admin"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true}},
+    {"nombre": "E-B", "habilidades": ["FrontDesk"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true}},
+    {"nombre": "E-C", "habilidades": ["Admin"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-FD", "dia": "Lunes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Recepción"},
+    {"id": "MAR-OF", "dia": "Martes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Oficina"},
+    {"id": "MIE-FD", "dia": "Miércoles", "hora_inicio": 9, "hora_fin": 17, "departamento": "Recepción"},
+    {"id": "JUE-OF", "dia": "Jueves", "hora_inicio": 9, "hora_fin": 17, "departamento": "Oficina"},
+    {"id": "VIE-FD", "dia": "Viernes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Recepción"}
+  ]
+}

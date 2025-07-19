@@ -1,0 +1,18 @@
+{
+  "habilidades": ["A", "B", "C"],
+  "departamentos": [
+    {"nombre": "Dep-A", "habilidades_requeridas": ["A"]},
+    {"nombre": "Dep-B", "habilidades_requeridas": ["B"]},
+    {"nombre": "Dep-C", "habilidades_requeridas": ["C"]}
+  ],
+  "empleados": [
+    {"nombre": "Empleado-A", "habilidades": ["A"], "disponibilidad": {"Martes": true}},
+    {"nombre": "Empleado-B", "habilidades": ["B"], "disponibilidad": {"Martes": true}},
+    {"nombre": "Comodin", "habilidades": ["A", "B", "C"], "disponibilidad": {"Martes": true}}
+  ],
+  "turnos": [
+    {"id": "MAR-A1", "dia": "Martes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Dep-A"},
+    {"id": "MAR-B1", "dia": "Martes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Dep-B"},
+    {"id": "MAR-C1", "dia": "Martes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Dep-C"}
+  ]
+}

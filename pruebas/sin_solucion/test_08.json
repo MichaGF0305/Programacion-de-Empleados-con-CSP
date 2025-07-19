@@ -1,0 +1,9 @@
+{
+  "habilidades": ["Recepción"],
+  "departamentos": [{"nombre": "Recepción", "habilidades_requeridas": ["Recepción"]}],
+  "empleados": [{"nombre": "Nora", "habilidades": ["Recepción"], "disponibilidad": {"Martes": true}}],
+  "turnos": [
+    {"id": "MAR-AM", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Recepción"},
+    {"id": "MAR-PM", "dia": "Martes", "hora_inicio": 16, "hora_fin": 24, "departamento": "Recepción"}
+  ]
+}

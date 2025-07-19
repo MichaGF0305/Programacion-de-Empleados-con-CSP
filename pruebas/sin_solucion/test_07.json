@@ -1,0 +1,6 @@
+{
+  "habilidades": ["Gerencia"],
+  "departamentos": [{"nombre": "Admin", "habilidades_requeridas": ["Gerencia"]}],
+  "empleados": [{"nombre": "Mario", "habilidades": [], "disponibilidad": {"Lunes": true}}],
+  "turnos": [{"id": "LUN-ADMIN", "dia": "Lunes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Admin"}]
+}

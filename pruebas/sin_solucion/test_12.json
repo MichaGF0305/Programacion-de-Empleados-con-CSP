@@ -1,0 +1,12 @@
+{
+  "habilidades": ["Control Aéreo"],
+  "departamentos": [{"nombre": "Torre", "habilidades_requeridas": ["Control Aéreo"]}],
+  "empleados": [
+    {"nombre": "Piloto-A", "habilidades": ["Control Aéreo"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}},
+    {"nombre": "Piloto-B", "habilidades": ["Control Aéreo"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-NOCHE", "dia": "Lunes", "hora_inicio": 22, "hora_fin": 6, "departamento": "Torre"},
+    {"id": "MAR-NOCHE", "dia": "Martes", "hora_inicio": 22, "hora_fin": 6, "departamento": "Torre"}
+  ]
+}

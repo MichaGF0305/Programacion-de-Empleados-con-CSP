@@ -1,0 +1,12 @@
+{
+  "habilidades": ["Cocina"],
+  "departamentos": [{"nombre": "Cocina", "habilidades_requeridas": ["Cocina"]}],
+  "empleados": [
+    {"nombre": "David", "habilidades": ["Cocina"], "disponibilidad": {"Jueves": true}},
+    {"nombre": "Elena", "habilidades": ["Cocina"], "disponibilidad": {"Jueves": true}}
+  ],
+  "turnos": [
+    {"id": "JUE-MANANA", "dia": "Jueves", "hora_inicio": 8, "hora_fin": 16, "departamento": "Cocina"},
+    {"id": "JUE-TARDE", "dia": "Jueves", "hora_inicio": 16, "hora_fin": 24, "departamento": "Cocina"}
+  ]
+}

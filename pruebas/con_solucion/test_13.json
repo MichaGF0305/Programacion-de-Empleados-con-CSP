@@ -1,0 +1,22 @@
+{
+  "archivo_problema": "test_13.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "DOM-CAJA-AM",
+      "empleado_asignado": "Sam"
+    },
+    {
+      "turno_id": "SAB-CAFE-AM",
+      "empleado_asignado": "Sam"
+    },
+    {
+      "turno_id": "SAB-CAFE-PM",
+      "empleado_asignado": "Tina"
+    },
+    {
+      "turno_id": "SAB-CAJA-AM",
+      "empleado_asignado": "Uli"
+    }
+  ]
+}

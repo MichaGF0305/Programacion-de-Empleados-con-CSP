@@ -1,0 +1,12 @@
+{
+  "habilidades": ["Limpieza"],
+  "departamentos": [{"nombre": "General", "habilidades_requeridas": ["Limpieza"]}],
+  "empleados": [
+    {"nombre": "Beto", "habilidades": ["Limpieza"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true, "Sábado": true, "Domingo": true}},
+    {"nombre": "Carlos", "habilidades": ["Limpieza"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true, "Sábado": true, "Domingo": true}}
+  ],
+  "turnos": [
+    {"id": "MAR-MANANA", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "General"},
+    {"id": "MIE-MANANA", "dia": "Miércoles", "hora_inicio": 8, "hora_fin": 16, "departamento": "General"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "habilidades": ["Chef", "Ayudante"],
+  "departamentos": [{"nombre": "Cocina", "habilidades_requeridas": ["Chef"]}, {"nombre": "Soporte", "habilidades_requeridas": ["Ayudante"]}],
+  "empleados": [
+    {"nombre": "Chef-1", "habilidades": ["Chef"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}},
+    {"nombre": "Chef-2", "habilidades": ["Chef"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}},
+    {"nombre": "Ayudante-1", "habilidades": ["Ayudante"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}},
+    {"nombre": "Ayudante-2", "habilidades": ["Ayudante", "Chef"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-CHEF-AM", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Cocina"},
+    {"id": "LUN-AYUD-AM", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Soporte"},
+    {"id": "MAR-CHEF-AM", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Cocina"},
+    {"id": "MAR-AYUD-AM", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Soporte"},
+    {"id": "MIE-CHEF-AM", "dia": "Miércoles", "hora_inicio": 8, "hora_fin": 16, "departamento": "Cocina"}
+  ]
+}
