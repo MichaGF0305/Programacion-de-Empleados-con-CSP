@@ -1,0 +1,12 @@
+{
+  "habilidades": ["Seguridad"],
+  "departamentos": [{"nombre": "Vigilancia", "habilidades_requeridas": ["Seguridad"]}],
+  "empleados": [
+    {"nombre": "Frank", "habilidades": ["Seguridad"], "disponibilidad": {"Viernes": true, "Sábado": true}},
+    {"nombre": "Gloria", "habilidades": ["Seguridad"], "disponibilidad": {"Viernes": true, "Sábado": true}}
+  ],
+  "turnos": [
+    {"id": "VIE-NOCHE", "dia": "Viernes", "hora_inicio": 22, "hora_fin": 6, "departamento": "Vigilancia"},
+    {"id": "SAB-MANANA", "dia": "Sábado", "hora_inicio": 7, "hora_fin": 15, "departamento": "Vigilancia"}
+  ]
+}

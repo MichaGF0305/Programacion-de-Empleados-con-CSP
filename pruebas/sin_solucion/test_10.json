@@ -1,0 +1,6 @@
+{
+  "habilidades": ["Logística"],
+  "departamentos": [{"nombre": "Almacén", "habilidades_requeridas": ["Logística"]}],
+  "empleados": [{"nombre": "Oscar", "habilidades": ["Logística"], "disponibilidad": {"Lunes": false}}],
+  "turnos": [{"id": "LUN-ALM", "dia": "Lunes", "hora_inicio": 7, "hora_fin": 15, "departamento": "Almacén"}]
+}

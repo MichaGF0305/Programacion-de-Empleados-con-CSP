@@ -1,0 +1,30 @@
+{
+  "archivo_problema": "test_20.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "DOM-RX-AM",
+      "empleado_asignado": "Bruno"
+    },
+    {
+      "turno_id": "DOM-URG-AM",
+      "empleado_asignado": "Ana"
+    },
+    {
+      "turno_id": "SAB-PED-AM",
+      "empleado_asignado": "Carla"
+    },
+    {
+      "turno_id": "SAB-RX-AM",
+      "empleado_asignado": "Bruno"
+    },
+    {
+      "turno_id": "SAB-URG-AM",
+      "empleado_asignado": "Ana"
+    },
+    {
+      "turno_id": "SAB-URG-PM",
+      "empleado_asignado": "Eva"
+    }
+  ]
+}

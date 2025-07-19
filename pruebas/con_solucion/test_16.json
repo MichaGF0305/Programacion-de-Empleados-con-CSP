@@ -1,0 +1,26 @@
+{
+  "archivo_problema": "test_16.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "JUE-OF",
+      "empleado_asignado": "E-A"
+    },
+    {
+      "turno_id": "LUN-FD",
+      "empleado_asignado": "E-A"
+    },
+    {
+      "turno_id": "MAR-OF",
+      "empleado_asignado": "E-A"
+    },
+    {
+      "turno_id": "MIE-FD",
+      "empleado_asignado": "E-A"
+    },
+    {
+      "turno_id": "VIE-FD",
+      "empleado_asignado": "E-A"
+    }
+  ]
+}

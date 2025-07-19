@@ -1,0 +1,18 @@
+{
+  "habilidades": ["Barista", "Cajero"],
+  "departamentos": [
+    {"nombre": "Café", "habilidades_requeridas": ["Barista"]},
+    {"nombre": "Caja", "habilidades_requeridas": ["Cajero"]}
+  ],
+  "empleados": [
+    {"nombre": "Sam", "habilidades": ["Barista", "Cajero"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "Tina", "habilidades": ["Barista"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "Uli", "habilidades": ["Cajero"], "disponibilidad": {"Sábado": true, "Domingo": true}}
+  ],
+  "turnos": [
+    {"id": "SAB-CAFE-AM", "dia": "Sábado", "hora_inicio": 8, "hora_fin": 16, "departamento": "Café"},
+    {"id": "SAB-CAJA-AM", "dia": "Sábado", "hora_inicio": 8, "hora_fin": 16, "departamento": "Caja"},
+    {"id": "SAB-CAFE-PM", "dia": "Sábado", "hora_inicio": 16, "hora_fin": 24, "departamento": "Café"},
+    {"id": "DOM-CAJA-AM", "dia": "Domingo", "hora_inicio": 8, "hora_fin": 16, "departamento": "Caja"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "habilidades": ["Enfermería", "Cirugía", "UCI"],
+  "departamentos": [
+    {"nombre": "Urgencias", "habilidades_requeridas": ["Enfermería", "Cirugía"]},
+    {"nombre": "UCI", "habilidades_requeridas": ["Enfermería", "UCI"]}
+  ],
+  "empleados": [
+    {"nombre": "E1", "habilidades": ["Enfermería", "Cirugía", "UCI"], "disponibilidad": {"Lunes": true, "Martes": true}},
+    {"nombre": "E2", "habilidades": ["Enfermería", "UCI"], "disponibilidad": {"Lunes": true, "Martes": true}},
+    {"nombre": "E3", "habilidades": ["Enfermería", "Cirugía"], "disponibilidad": {"Lunes": true, "Martes": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-URG-AM", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Urgencias"},
+    {"id": "LUN-UCI-AM", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "UCI"},
+    {"id": "LUN-URG-PM", "dia": "Lunes", "hora_inicio": 16, "hora_fin": 24, "departamento": "Urgencias"},
+    {"id": "MAR-UCI-AM", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "UCI"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "habilidades": ["A", "B"],
+  "departamentos": [{"nombre": "D1", "habilidades_requeridas": ["A"]}, {"nombre": "D2", "habilidades_requeridas": ["B"]}],
+  "empleados": [
+    {"nombre": "P1", "habilidades": ["A"], "disponibilidad": {"Lunes": true}},
+    {"nombre": "P2", "habilidades": ["A", "B"], "disponibilidad": {"Lunes": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-T1", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "D1"},
+    {"id": "LUN-T2", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "D2"}
+  ]
+}

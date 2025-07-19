@@ -1,0 +1,22 @@
+{
+  "archivo_problema": "test_11.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "LUN-UCI-AM",
+      "empleado_asignado": "E2"
+    },
+    {
+      "turno_id": "LUN-URG-AM",
+      "empleado_asignado": "E1"
+    },
+    {
+      "turno_id": "LUN-URG-PM",
+      "empleado_asignado": "E3"
+    },
+    {
+      "turno_id": "MAR-UCI-AM",
+      "empleado_asignado": "E1"
+    }
+  ]
+}

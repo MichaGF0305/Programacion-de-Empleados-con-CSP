@@ -1,0 +1,12 @@
+{
+  "habilidades": ["Soporte TI"],
+  "departamentos": [{"nombre": "TI", "habilidades_requeridas": ["Soporte TI"]}],
+  "empleados": [
+    {"nombre": "Juan", "habilidades": ["Soporte TI"], "disponibilidad": {"Lunes": true, "Miércoles": true, "Viernes": true}},
+    {"nombre": "Laura", "habilidades": ["Soporte TI"], "disponibilidad": {"Martes": true, "Jueves": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-TI", "dia": "Lunes", "hora_inicio": 9, "hora_fin": 17, "departamento": "TI"},
+    {"id": "MAR-TI", "dia": "Martes", "hora_inicio": 9, "hora_fin": 17, "departamento": "TI"}
+  ]
+}

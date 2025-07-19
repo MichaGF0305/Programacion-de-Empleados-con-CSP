@@ -1,0 +1,18 @@
+{
+  "archivo_problema": "test_19.json",
+  "metodo_solucion": "AC-3",
+  "asignacion": [
+    {
+      "turno_id": "MAR-A1",
+      "empleado_asignado": "Empleado-A"
+    },
+    {
+      "turno_id": "MAR-B1",
+      "empleado_asignado": "Empleado-B"
+    },
+    {
+      "turno_id": "MAR-C1",
+      "empleado_asignado": "Comodin"
+    }
+  ]
+}

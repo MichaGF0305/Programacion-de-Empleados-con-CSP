@@ -1,0 +1,13 @@
+{
+  "habilidades": ["Operador"],
+  "departamentos": [{"nombre": "Central", "habilidades_requeridas": ["Operador"]}],
+  "empleados": [
+    {"nombre": "Op-1", "habilidades": ["Operador"], "disponibilidad": {"Lunes": true, "Martes": true}},
+    {"nombre": "Op-2", "habilidades": ["Operador"], "disponibilidad": {"Lunes": true, "Miércoles": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-AM", "dia": "Lunes", "hora_inicio": 6, "hora_fin": 14, "departamento": "Central"},
+    {"id": "LUN-PM", "dia": "Lunes", "hora_inicio": 14, "hora_fin": 22, "departamento": "Central"},
+    {"id": "LUN-NOC", "dia": "Lunes", "hora_inicio": 22, "hora_fin": 6, "departamento": "Central"}
+  ]
+}

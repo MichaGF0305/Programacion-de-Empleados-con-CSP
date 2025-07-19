@@ -1,0 +1,18 @@
+{
+  "archivo_problema": "test_18.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "LUN-AM",
+      "empleado_asignado": "Op-2"
+    },
+    {
+      "turno_id": "LUN-NOC",
+      "empleado_asignado": "Op-2"
+    },
+    {
+      "turno_id": "LUN-PM",
+      "empleado_asignado": "Op-1"
+    }
+  ]
+}

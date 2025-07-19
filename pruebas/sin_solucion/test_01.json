@@ -1,0 +1,6 @@
+{
+  "habilidades": ["Caja"],
+  "departamentos": [{"nombre": "Cajas", "habilidades_requeridas": ["Caja"]}],
+  "empleados": [{"nombre": "Ana", "habilidades": ["Caja"], "disponibilidad": {"Lunes": true, "Martes": true, "Miércoles": true, "Jueves": true, "Viernes": true, "Sábado": true, "Domingo": true}}],
+  "turnos": [{"id": "LUN-MANANA", "dia": "Lunes", "hora_inicio": 9, "hora_fin": 17, "departamento": "Cajas"}]
+}

@@ -1,0 +1,23 @@
+{
+  "habilidades": ["Enfermería", "Cirugía", "Radiología", "Pediatría"],
+  "departamentos": [
+    {"nombre": "Urgencias", "habilidades_requeridas": ["Enfermería", "Cirugía"]},
+    {"nombre": "Rayos-X", "habilidades_requeridas": ["Radiología"]},
+    {"nombre": "Planta Pediátrica", "habilidades_requeridas": ["Enfermería", "Pediatría"]}
+  ],
+  "empleados": [
+    {"nombre": "Ana", "habilidades": ["Enfermería", "Cirugía", "Pediatría"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "Bruno", "habilidades": ["Enfermería", "Radiología"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "Carla", "habilidades": ["Enfermería", "Pediatría"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "David", "habilidades": ["Radiología"], "disponibilidad": {"Sábado": true, "Domingo": true}},
+    {"nombre": "Eva", "habilidades": ["Enfermería", "Cirugía"], "disponibilidad": {"Sábado": true, "Domingo": true}}
+  ],
+  "turnos": [
+    {"id": "SAB-URG-AM", "dia": "Sábado", "hora_inicio": 7, "hora_fin": 19, "departamento": "Urgencias"},
+    {"id": "SAB-RX-AM", "dia": "Sábado", "hora_inicio": 8, "hora_fin": 16, "departamento": "Rayos-X"},
+    {"id": "SAB-PED-AM", "dia": "Sábado", "hora_inicio": 8, "hora_fin": 16, "departamento": "Planta Pediátrica"},
+    {"id": "SAB-URG-PM", "dia": "Sábado", "hora_inicio": 19, "hora_fin": 7, "departamento": "Urgencias"},
+    {"id": "DOM-URG-AM", "dia": "Domingo", "hora_inicio": 7, "hora_fin": 19, "departamento": "Urgencias"},
+    {"id": "DOM-RX-AM", "dia": "Domingo", "hora_inicio": 8, "hora_fin": 16, "departamento": "Rayos-X"}
+  ]
+}

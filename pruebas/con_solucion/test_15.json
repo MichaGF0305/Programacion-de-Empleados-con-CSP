@@ -1,0 +1,18 @@
+{
+  "archivo_problema": "test_15.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "LUN-PLANTA",
+      "empleado_asignado": "Xavi"
+    },
+    {
+      "turno_id": "MAR-PLANTA",
+      "empleado_asignado": "Xavi"
+    },
+    {
+      "turno_id": "MIE-PLANTA",
+      "empleado_asignado": "Yara"
+    }
+  ]
+}

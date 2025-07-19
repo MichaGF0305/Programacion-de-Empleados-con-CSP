@@ -1,0 +1,14 @@
+{
+  "habilidades": ["Ingeniería"],
+  "departamentos": [{"nombre": "Planta", "habilidades_requeridas": ["Ingeniería"]}],
+  "empleados": [
+    {"nombre": "Xavi", "habilidades": ["Ingeniería"], "disponibilidad": {"Lunes": true, "Martes": true}},
+    {"nombre": "Yara", "habilidades": ["Ingeniería"], "disponibilidad": {"Martes": true, "Miércoles": true}},
+    {"nombre": "Zoe", "habilidades": ["Ingeniería"], "disponibilidad": {"Lunes": true, "Miércoles": true}}
+  ],
+  "turnos": [
+    {"id": "LUN-PLANTA", "dia": "Lunes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Planta"},
+    {"id": "MAR-PLANTA", "dia": "Martes", "hora_inicio": 8, "hora_fin": 16, "departamento": "Planta"},
+    {"id": "MIE-PLANTA", "dia": "Miércoles", "hora_inicio": 8, "hora_fin": 16, "departamento": "Planta"}
+  ]
+}

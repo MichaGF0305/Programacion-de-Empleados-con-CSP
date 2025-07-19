@@ -1,0 +1,10 @@
+{
+  "archivo_problema": "test_01.json",
+  "metodo_solucion": "AC-3",
+  "asignacion": [
+    {
+      "turno_id": "LUN-MANANA",
+      "empleado_asignado": "Ana"
+    }
+  ]
+}

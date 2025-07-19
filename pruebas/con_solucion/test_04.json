@@ -1,0 +1,14 @@
+{
+  "archivo_problema": "test_04.json",
+  "metodo_solucion": "BTS",
+  "asignacion": [
+    {
+      "turno_id": "SAB-MANANA",
+      "empleado_asignado": "Gloria"
+    },
+    {
+      "turno_id": "VIE-NOCHE",
+      "empleado_asignado": "Frank"
+    }
+  ]
+}

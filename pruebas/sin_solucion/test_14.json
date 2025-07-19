@@ -1,0 +1,15 @@
+{
+  "habilidades": ["Traducción Japonés", "Soporte Técnico"],
+  "departamentos": [
+    {"nombre": "Soporte JP", "habilidades_requeridas": ["Soporte Técnico", "Traducción Japonés"]},
+    {"nombre": "Soporte Global", "habilidades_requeridas": ["Soporte Técnico"]}
+  ],
+  "empleados": [
+    {"nombre": "Victor", "habilidades": ["Soporte Técnico", "Traducción Japonés"], "disponibilidad": {"Viernes": true}},
+    {"nombre": "Wendy", "habilidades": ["Soporte Técnico"], "disponibilidad": {"Viernes": true}}
+  ],
+  "turnos": [
+    {"id": "VIE-JP-AM", "dia": "Viernes", "hora_inicio": 8, "hora_fin": 12, "departamento": "Soporte JP"},
+    {"id": "VIE-JP-PM", "dia": "Viernes", "hora_inicio": 12, "hora_fin": 16, "departamento": "Soporte JP"}
+  ]
+}
